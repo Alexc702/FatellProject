@@ -42,13 +42,11 @@ struct ContentView: View {
         GroupBox("OpenRouter 设置") {
             VStack(alignment: .leading, spacing: 10) {
                 TextField("OpenRouter API Key (留空走 mock)", text: $vm.apiKey)
-                    .textInputAutocapitalization(.never)
-                    .autocorrectionDisabled()
-                    .textFieldStyle(.roundedBorder)
+                    .disableAutomaticTextInput()
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
                 TextField("VLM 模型（示例：openai/gpt-4.1-mini）", text: $vm.model)
-                    .textInputAutocapitalization(.never)
-                    .autocorrectionDisabled()
-                    .textFieldStyle(.roundedBorder)
+                    .disableAutomaticTextInput()
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
                 Text("说明：API key 为空时，会使用本地 mock 识别器走完整闭环。")
                     .font(.footnote)
                     .foregroundColor(.secondary)
@@ -147,7 +145,7 @@ struct ContentView: View {
         GroupBox("输入问题并获取解答") {
             VStack(alignment: .leading, spacing: 10) {
                 TextField("示例：我最近适合换工作吗？", text: $vm.question, axis: .vertical)
-                    .textFieldStyle(.roundedBorder)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
                 Button("生成解答") {
                     vm.answerQuestion()
                 }
@@ -168,5 +166,24 @@ struct ContentView: View {
                 .font(.footnote)
                 .foregroundColor(.secondary)
         }
+    }
+}
+
+private extension View {
+    @ViewBuilder
+    func disableAutomaticTextInput() -> some View {
+        #if os(iOS)
+        if #available(iOS 15.0, *) {
+            self
+                .textInputAutocapitalization(TextInputAutocapitalization.never)
+                .autocorrectionDisabled(true)
+        } else {
+            self
+                .autocapitalization(.none)
+                .disableAutocorrection(true)
+        }
+        #else
+        self
+        #endif
     }
 }
