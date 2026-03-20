@@ -1,0 +1,2552 @@
+[
+  {
+    "face_id": "fixture-001",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.55,
+      "clarity_score": 0.58,
+      "lighting": "bright",
+      "occlusion": "none"
+    },
+    "features": {
+      "forehead": "broad",
+      "eyebrows": "longRising",
+      "eyes": "clearBright",
+      "nose": "straightBridge",
+      "mouth": "downturned",
+      "ears": "smallThin",
+      "chin": "roundFull",
+      "complexion": "yellowish"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "strong"
+      },
+      {
+        "palace": "wealth",
+        "status": "stable"
+      },
+      {
+        "palace": "career",
+        "status": "weak"
+      },
+      {
+        "palace": "relationship",
+        "status": "blocked"
+      },
+      {
+        "palace": "health",
+        "status": "strong"
+      },
+      {
+        "palace": "travel",
+        "status": "stable"
+      },
+      {
+        "palace": "support",
+        "status": "weak"
+      }
+    ],
+    "confidence": 0.62
+  },
+  {
+    "face_id": "fixture-002",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.59,
+      "clarity_score": 0.62,
+      "lighting": "balanced",
+      "occlusion": "low"
+    },
+    "features": {
+      "forehead": "balanced",
+      "eyebrows": "crescent",
+      "eyes": "peachBlossom",
+      "nose": "broadWing",
+      "mouth": "thick",
+      "ears": "protruding",
+      "chin": "squareFirm",
+      "complexion": "pale"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "stable"
+      },
+      {
+        "palace": "wealth",
+        "status": "weak"
+      },
+      {
+        "palace": "career",
+        "status": "blocked"
+      },
+      {
+        "palace": "relationship",
+        "status": "strong"
+      },
+      {
+        "palace": "health",
+        "status": "stable"
+      },
+      {
+        "palace": "travel",
+        "status": "weak"
+      },
+      {
+        "palace": "support",
+        "status": "blocked"
+      }
+    ],
+    "confidence": 0.66
+  },
+  {
+    "face_id": "fixture-003",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.63,
+      "clarity_score": 0.66,
+      "lighting": "dim",
+      "occlusion": "medium"
+    },
+    "features": {
+      "forehead": "narrow",
+      "eyebrows": "straight",
+      "eyes": "triangle",
+      "nose": "thinPointed",
+      "mouth": "thin",
+      "ears": "closeFit",
+      "chin": "pointed",
+      "complexion": "dark"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "weak"
+      },
+      {
+        "palace": "wealth",
+        "status": "blocked"
+      },
+      {
+        "palace": "career",
+        "status": "strong"
+      },
+      {
+        "palace": "relationship",
+        "status": "stable"
+      },
+      {
+        "palace": "health",
+        "status": "weak"
+      },
+      {
+        "palace": "travel",
+        "status": "blocked"
+      },
+      {
+        "palace": "support",
+        "status": "strong"
+      }
+    ],
+    "confidence": 0.7
+  },
+  {
+    "face_id": "fixture-004",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.67,
+      "clarity_score": 0.7,
+      "lighting": "backlit",
+      "occlusion": "high"
+    },
+    "features": {
+      "forehead": "high",
+      "eyebrows": "thickDense",
+      "eyes": "threeWhite",
+      "nose": "hooked",
+      "mouth": "blurryEdges",
+      "ears": "highSet",
+      "chin": "receding",
+      "complexion": "mixed"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "blocked"
+      },
+      {
+        "palace": "wealth",
+        "status": "strong"
+      },
+      {
+        "palace": "career",
+        "status": "stable"
+      },
+      {
+        "palace": "relationship",
+        "status": "weak"
+      },
+      {
+        "palace": "health",
+        "status": "blocked"
+      },
+      {
+        "palace": "travel",
+        "status": "strong"
+      },
+      {
+        "palace": "support",
+        "status": "stable"
+      }
+    ],
+    "confidence": 0.74
+  },
+  {
+    "face_id": "fixture-005",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.71,
+      "clarity_score": 0.74,
+      "lighting": "bright",
+      "occlusion": "none"
+    },
+    "features": {
+      "forehead": "low",
+      "eyebrows": "sparse",
+      "eyes": "fishLike",
+      "nose": "flatWeak",
+      "mouth": "balanced",
+      "ears": "lowSet",
+      "chin": "long",
+      "complexion": "bright"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "strong"
+      },
+      {
+        "palace": "wealth",
+        "status": "stable"
+      },
+      {
+        "palace": "career",
+        "status": "weak"
+      },
+      {
+        "palace": "relationship",
+        "status": "blocked"
+      },
+      {
+        "palace": "health",
+        "status": "strong"
+      },
+      {
+        "palace": "travel",
+        "status": "stable"
+      },
+      {
+        "palace": "support",
+        "status": "weak"
+      }
+    ],
+    "confidence": 0.78
+  },
+  {
+    "face_id": "fixture-006",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.75,
+      "clarity_score": 0.78,
+      "lighting": "balanced",
+      "occlusion": "low"
+    },
+    "features": {
+      "forehead": "broad",
+      "eyebrows": "shortBroken",
+      "eyes": "deepSet",
+      "nose": "fullRound",
+      "mouth": "upturned",
+      "ears": "thickLobe",
+      "chin": "roundFull",
+      "complexion": "yellowish"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "stable"
+      },
+      {
+        "palace": "wealth",
+        "status": "weak"
+      },
+      {
+        "palace": "career",
+        "status": "blocked"
+      },
+      {
+        "palace": "relationship",
+        "status": "strong"
+      },
+      {
+        "palace": "health",
+        "status": "stable"
+      },
+      {
+        "palace": "travel",
+        "status": "weak"
+      },
+      {
+        "palace": "support",
+        "status": "blocked"
+      }
+    ],
+    "confidence": 0.82
+  },
+  {
+    "face_id": "fixture-007",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.79,
+      "clarity_score": 0.82,
+      "lighting": "dim",
+      "occlusion": "medium"
+    },
+    "features": {
+      "forehead": "balanced",
+      "eyebrows": "longRising",
+      "eyes": "clearBright",
+      "nose": "straightBridge",
+      "mouth": "downturned",
+      "ears": "smallThin",
+      "chin": "squareFirm",
+      "complexion": "pale"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "weak"
+      },
+      {
+        "palace": "wealth",
+        "status": "blocked"
+      },
+      {
+        "palace": "career",
+        "status": "strong"
+      },
+      {
+        "palace": "relationship",
+        "status": "stable"
+      },
+      {
+        "palace": "health",
+        "status": "weak"
+      },
+      {
+        "palace": "travel",
+        "status": "blocked"
+      },
+      {
+        "palace": "support",
+        "status": "strong"
+      }
+    ],
+    "confidence": 0.86
+  },
+  {
+    "face_id": "fixture-008",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.83,
+      "clarity_score": 0.86,
+      "lighting": "backlit",
+      "occlusion": "high"
+    },
+    "features": {
+      "forehead": "narrow",
+      "eyebrows": "crescent",
+      "eyes": "peachBlossom",
+      "nose": "broadWing",
+      "mouth": "thick",
+      "ears": "protruding",
+      "chin": "pointed",
+      "complexion": "dark"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "blocked"
+      },
+      {
+        "palace": "wealth",
+        "status": "strong"
+      },
+      {
+        "palace": "career",
+        "status": "stable"
+      },
+      {
+        "palace": "relationship",
+        "status": "weak"
+      },
+      {
+        "palace": "health",
+        "status": "blocked"
+      },
+      {
+        "palace": "travel",
+        "status": "strong"
+      },
+      {
+        "palace": "support",
+        "status": "stable"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "face_id": "fixture-009",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.87,
+      "clarity_score": 0.9,
+      "lighting": "bright",
+      "occlusion": "none"
+    },
+    "features": {
+      "forehead": "high",
+      "eyebrows": "straight",
+      "eyes": "triangle",
+      "nose": "thinPointed",
+      "mouth": "thin",
+      "ears": "closeFit",
+      "chin": "receding",
+      "complexion": "mixed"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "strong"
+      },
+      {
+        "palace": "wealth",
+        "status": "stable"
+      },
+      {
+        "palace": "career",
+        "status": "weak"
+      },
+      {
+        "palace": "relationship",
+        "status": "blocked"
+      },
+      {
+        "palace": "health",
+        "status": "strong"
+      },
+      {
+        "palace": "travel",
+        "status": "stable"
+      },
+      {
+        "palace": "support",
+        "status": "weak"
+      }
+    ],
+    "confidence": 0.62
+  },
+  {
+    "face_id": "fixture-010",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.91,
+      "clarity_score": 0.58,
+      "lighting": "balanced",
+      "occlusion": "low"
+    },
+    "features": {
+      "forehead": "low",
+      "eyebrows": "thickDense",
+      "eyes": "threeWhite",
+      "nose": "hooked",
+      "mouth": "blurryEdges",
+      "ears": "highSet",
+      "chin": "long",
+      "complexion": "bright"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "stable"
+      },
+      {
+        "palace": "wealth",
+        "status": "weak"
+      },
+      {
+        "palace": "career",
+        "status": "blocked"
+      },
+      {
+        "palace": "relationship",
+        "status": "strong"
+      },
+      {
+        "palace": "health",
+        "status": "stable"
+      },
+      {
+        "palace": "travel",
+        "status": "weak"
+      },
+      {
+        "palace": "support",
+        "status": "blocked"
+      }
+    ],
+    "confidence": 0.66
+  },
+  {
+    "face_id": "fixture-011",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.55,
+      "clarity_score": 0.62,
+      "lighting": "dim",
+      "occlusion": "medium"
+    },
+    "features": {
+      "forehead": "broad",
+      "eyebrows": "sparse",
+      "eyes": "fishLike",
+      "nose": "flatWeak",
+      "mouth": "balanced",
+      "ears": "lowSet",
+      "chin": "roundFull",
+      "complexion": "yellowish"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "weak"
+      },
+      {
+        "palace": "wealth",
+        "status": "blocked"
+      },
+      {
+        "palace": "career",
+        "status": "strong"
+      },
+      {
+        "palace": "relationship",
+        "status": "stable"
+      },
+      {
+        "palace": "health",
+        "status": "weak"
+      },
+      {
+        "palace": "travel",
+        "status": "blocked"
+      },
+      {
+        "palace": "support",
+        "status": "strong"
+      }
+    ],
+    "confidence": 0.7
+  },
+  {
+    "face_id": "fixture-012",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.59,
+      "clarity_score": 0.66,
+      "lighting": "backlit",
+      "occlusion": "high"
+    },
+    "features": {
+      "forehead": "balanced",
+      "eyebrows": "shortBroken",
+      "eyes": "deepSet",
+      "nose": "fullRound",
+      "mouth": "upturned",
+      "ears": "thickLobe",
+      "chin": "squareFirm",
+      "complexion": "pale"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "blocked"
+      },
+      {
+        "palace": "wealth",
+        "status": "strong"
+      },
+      {
+        "palace": "career",
+        "status": "stable"
+      },
+      {
+        "palace": "relationship",
+        "status": "weak"
+      },
+      {
+        "palace": "health",
+        "status": "blocked"
+      },
+      {
+        "palace": "travel",
+        "status": "strong"
+      },
+      {
+        "palace": "support",
+        "status": "stable"
+      }
+    ],
+    "confidence": 0.74
+  },
+  {
+    "face_id": "fixture-013",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.63,
+      "clarity_score": 0.7,
+      "lighting": "bright",
+      "occlusion": "none"
+    },
+    "features": {
+      "forehead": "narrow",
+      "eyebrows": "longRising",
+      "eyes": "clearBright",
+      "nose": "straightBridge",
+      "mouth": "downturned",
+      "ears": "smallThin",
+      "chin": "pointed",
+      "complexion": "dark"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "strong"
+      },
+      {
+        "palace": "wealth",
+        "status": "stable"
+      },
+      {
+        "palace": "career",
+        "status": "weak"
+      },
+      {
+        "palace": "relationship",
+        "status": "blocked"
+      },
+      {
+        "palace": "health",
+        "status": "strong"
+      },
+      {
+        "palace": "travel",
+        "status": "stable"
+      },
+      {
+        "palace": "support",
+        "status": "weak"
+      }
+    ],
+    "confidence": 0.78
+  },
+  {
+    "face_id": "fixture-014",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.67,
+      "clarity_score": 0.74,
+      "lighting": "balanced",
+      "occlusion": "low"
+    },
+    "features": {
+      "forehead": "high",
+      "eyebrows": "crescent",
+      "eyes": "peachBlossom",
+      "nose": "broadWing",
+      "mouth": "thick",
+      "ears": "protruding",
+      "chin": "receding",
+      "complexion": "mixed"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "stable"
+      },
+      {
+        "palace": "wealth",
+        "status": "weak"
+      },
+      {
+        "palace": "career",
+        "status": "blocked"
+      },
+      {
+        "palace": "relationship",
+        "status": "strong"
+      },
+      {
+        "palace": "health",
+        "status": "stable"
+      },
+      {
+        "palace": "travel",
+        "status": "weak"
+      },
+      {
+        "palace": "support",
+        "status": "blocked"
+      }
+    ],
+    "confidence": 0.82
+  },
+  {
+    "face_id": "fixture-015",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.71,
+      "clarity_score": 0.78,
+      "lighting": "dim",
+      "occlusion": "medium"
+    },
+    "features": {
+      "forehead": "low",
+      "eyebrows": "straight",
+      "eyes": "triangle",
+      "nose": "thinPointed",
+      "mouth": "thin",
+      "ears": "closeFit",
+      "chin": "long",
+      "complexion": "bright"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "weak"
+      },
+      {
+        "palace": "wealth",
+        "status": "blocked"
+      },
+      {
+        "palace": "career",
+        "status": "strong"
+      },
+      {
+        "palace": "relationship",
+        "status": "stable"
+      },
+      {
+        "palace": "health",
+        "status": "weak"
+      },
+      {
+        "palace": "travel",
+        "status": "blocked"
+      },
+      {
+        "palace": "support",
+        "status": "strong"
+      }
+    ],
+    "confidence": 0.86
+  },
+  {
+    "face_id": "fixture-016",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.75,
+      "clarity_score": 0.82,
+      "lighting": "backlit",
+      "occlusion": "high"
+    },
+    "features": {
+      "forehead": "broad",
+      "eyebrows": "thickDense",
+      "eyes": "threeWhite",
+      "nose": "hooked",
+      "mouth": "blurryEdges",
+      "ears": "highSet",
+      "chin": "roundFull",
+      "complexion": "yellowish"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "blocked"
+      },
+      {
+        "palace": "wealth",
+        "status": "strong"
+      },
+      {
+        "palace": "career",
+        "status": "stable"
+      },
+      {
+        "palace": "relationship",
+        "status": "weak"
+      },
+      {
+        "palace": "health",
+        "status": "blocked"
+      },
+      {
+        "palace": "travel",
+        "status": "strong"
+      },
+      {
+        "palace": "support",
+        "status": "stable"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "face_id": "fixture-017",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.79,
+      "clarity_score": 0.86,
+      "lighting": "bright",
+      "occlusion": "none"
+    },
+    "features": {
+      "forehead": "balanced",
+      "eyebrows": "sparse",
+      "eyes": "fishLike",
+      "nose": "flatWeak",
+      "mouth": "balanced",
+      "ears": "lowSet",
+      "chin": "squareFirm",
+      "complexion": "pale"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "strong"
+      },
+      {
+        "palace": "wealth",
+        "status": "stable"
+      },
+      {
+        "palace": "career",
+        "status": "weak"
+      },
+      {
+        "palace": "relationship",
+        "status": "blocked"
+      },
+      {
+        "palace": "health",
+        "status": "strong"
+      },
+      {
+        "palace": "travel",
+        "status": "stable"
+      },
+      {
+        "palace": "support",
+        "status": "weak"
+      }
+    ],
+    "confidence": 0.62
+  },
+  {
+    "face_id": "fixture-018",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.83,
+      "clarity_score": 0.9,
+      "lighting": "balanced",
+      "occlusion": "low"
+    },
+    "features": {
+      "forehead": "narrow",
+      "eyebrows": "shortBroken",
+      "eyes": "deepSet",
+      "nose": "fullRound",
+      "mouth": "upturned",
+      "ears": "thickLobe",
+      "chin": "pointed",
+      "complexion": "dark"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "stable"
+      },
+      {
+        "palace": "wealth",
+        "status": "weak"
+      },
+      {
+        "palace": "career",
+        "status": "blocked"
+      },
+      {
+        "palace": "relationship",
+        "status": "strong"
+      },
+      {
+        "palace": "health",
+        "status": "stable"
+      },
+      {
+        "palace": "travel",
+        "status": "weak"
+      },
+      {
+        "palace": "support",
+        "status": "blocked"
+      }
+    ],
+    "confidence": 0.66
+  },
+  {
+    "face_id": "fixture-019",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.87,
+      "clarity_score": 0.58,
+      "lighting": "dim",
+      "occlusion": "medium"
+    },
+    "features": {
+      "forehead": "high",
+      "eyebrows": "longRising",
+      "eyes": "clearBright",
+      "nose": "straightBridge",
+      "mouth": "downturned",
+      "ears": "smallThin",
+      "chin": "receding",
+      "complexion": "mixed"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "weak"
+      },
+      {
+        "palace": "wealth",
+        "status": "blocked"
+      },
+      {
+        "palace": "career",
+        "status": "strong"
+      },
+      {
+        "palace": "relationship",
+        "status": "stable"
+      },
+      {
+        "palace": "health",
+        "status": "weak"
+      },
+      {
+        "palace": "travel",
+        "status": "blocked"
+      },
+      {
+        "palace": "support",
+        "status": "strong"
+      }
+    ],
+    "confidence": 0.7
+  },
+  {
+    "face_id": "fixture-020",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.91,
+      "clarity_score": 0.62,
+      "lighting": "backlit",
+      "occlusion": "high"
+    },
+    "features": {
+      "forehead": "low",
+      "eyebrows": "crescent",
+      "eyes": "peachBlossom",
+      "nose": "broadWing",
+      "mouth": "thick",
+      "ears": "protruding",
+      "chin": "long",
+      "complexion": "bright"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "blocked"
+      },
+      {
+        "palace": "wealth",
+        "status": "strong"
+      },
+      {
+        "palace": "career",
+        "status": "stable"
+      },
+      {
+        "palace": "relationship",
+        "status": "weak"
+      },
+      {
+        "palace": "health",
+        "status": "blocked"
+      },
+      {
+        "palace": "travel",
+        "status": "strong"
+      },
+      {
+        "palace": "support",
+        "status": "stable"
+      }
+    ],
+    "confidence": 0.74
+  },
+  {
+    "face_id": "fixture-021",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.55,
+      "clarity_score": 0.66,
+      "lighting": "bright",
+      "occlusion": "none"
+    },
+    "features": {
+      "forehead": "broad",
+      "eyebrows": "straight",
+      "eyes": "triangle",
+      "nose": "thinPointed",
+      "mouth": "thin",
+      "ears": "closeFit",
+      "chin": "roundFull",
+      "complexion": "yellowish"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "strong"
+      },
+      {
+        "palace": "wealth",
+        "status": "stable"
+      },
+      {
+        "palace": "career",
+        "status": "weak"
+      },
+      {
+        "palace": "relationship",
+        "status": "blocked"
+      },
+      {
+        "palace": "health",
+        "status": "strong"
+      },
+      {
+        "palace": "travel",
+        "status": "stable"
+      },
+      {
+        "palace": "support",
+        "status": "weak"
+      }
+    ],
+    "confidence": 0.78
+  },
+  {
+    "face_id": "fixture-022",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.59,
+      "clarity_score": 0.7,
+      "lighting": "balanced",
+      "occlusion": "low"
+    },
+    "features": {
+      "forehead": "balanced",
+      "eyebrows": "thickDense",
+      "eyes": "threeWhite",
+      "nose": "hooked",
+      "mouth": "blurryEdges",
+      "ears": "highSet",
+      "chin": "squareFirm",
+      "complexion": "pale"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "stable"
+      },
+      {
+        "palace": "wealth",
+        "status": "weak"
+      },
+      {
+        "palace": "career",
+        "status": "blocked"
+      },
+      {
+        "palace": "relationship",
+        "status": "strong"
+      },
+      {
+        "palace": "health",
+        "status": "stable"
+      },
+      {
+        "palace": "travel",
+        "status": "weak"
+      },
+      {
+        "palace": "support",
+        "status": "blocked"
+      }
+    ],
+    "confidence": 0.82
+  },
+  {
+    "face_id": "fixture-023",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.63,
+      "clarity_score": 0.74,
+      "lighting": "dim",
+      "occlusion": "medium"
+    },
+    "features": {
+      "forehead": "narrow",
+      "eyebrows": "sparse",
+      "eyes": "fishLike",
+      "nose": "flatWeak",
+      "mouth": "balanced",
+      "ears": "lowSet",
+      "chin": "pointed",
+      "complexion": "dark"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "weak"
+      },
+      {
+        "palace": "wealth",
+        "status": "blocked"
+      },
+      {
+        "palace": "career",
+        "status": "strong"
+      },
+      {
+        "palace": "relationship",
+        "status": "stable"
+      },
+      {
+        "palace": "health",
+        "status": "weak"
+      },
+      {
+        "palace": "travel",
+        "status": "blocked"
+      },
+      {
+        "palace": "support",
+        "status": "strong"
+      }
+    ],
+    "confidence": 0.86
+  },
+  {
+    "face_id": "fixture-024",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.67,
+      "clarity_score": 0.78,
+      "lighting": "backlit",
+      "occlusion": "high"
+    },
+    "features": {
+      "forehead": "high",
+      "eyebrows": "shortBroken",
+      "eyes": "deepSet",
+      "nose": "fullRound",
+      "mouth": "upturned",
+      "ears": "thickLobe",
+      "chin": "receding",
+      "complexion": "mixed"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "blocked"
+      },
+      {
+        "palace": "wealth",
+        "status": "strong"
+      },
+      {
+        "palace": "career",
+        "status": "stable"
+      },
+      {
+        "palace": "relationship",
+        "status": "weak"
+      },
+      {
+        "palace": "health",
+        "status": "blocked"
+      },
+      {
+        "palace": "travel",
+        "status": "strong"
+      },
+      {
+        "palace": "support",
+        "status": "stable"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "face_id": "fixture-025",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.71,
+      "clarity_score": 0.82,
+      "lighting": "bright",
+      "occlusion": "none"
+    },
+    "features": {
+      "forehead": "low",
+      "eyebrows": "longRising",
+      "eyes": "clearBright",
+      "nose": "straightBridge",
+      "mouth": "downturned",
+      "ears": "smallThin",
+      "chin": "long",
+      "complexion": "bright"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "strong"
+      },
+      {
+        "palace": "wealth",
+        "status": "stable"
+      },
+      {
+        "palace": "career",
+        "status": "weak"
+      },
+      {
+        "palace": "relationship",
+        "status": "blocked"
+      },
+      {
+        "palace": "health",
+        "status": "strong"
+      },
+      {
+        "palace": "travel",
+        "status": "stable"
+      },
+      {
+        "palace": "support",
+        "status": "weak"
+      }
+    ],
+    "confidence": 0.62
+  },
+  {
+    "face_id": "fixture-026",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.75,
+      "clarity_score": 0.86,
+      "lighting": "balanced",
+      "occlusion": "low"
+    },
+    "features": {
+      "forehead": "broad",
+      "eyebrows": "crescent",
+      "eyes": "peachBlossom",
+      "nose": "broadWing",
+      "mouth": "thick",
+      "ears": "protruding",
+      "chin": "roundFull",
+      "complexion": "yellowish"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "stable"
+      },
+      {
+        "palace": "wealth",
+        "status": "weak"
+      },
+      {
+        "palace": "career",
+        "status": "blocked"
+      },
+      {
+        "palace": "relationship",
+        "status": "strong"
+      },
+      {
+        "palace": "health",
+        "status": "stable"
+      },
+      {
+        "palace": "travel",
+        "status": "weak"
+      },
+      {
+        "palace": "support",
+        "status": "blocked"
+      }
+    ],
+    "confidence": 0.66
+  },
+  {
+    "face_id": "fixture-027",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.79,
+      "clarity_score": 0.9,
+      "lighting": "dim",
+      "occlusion": "medium"
+    },
+    "features": {
+      "forehead": "balanced",
+      "eyebrows": "straight",
+      "eyes": "triangle",
+      "nose": "thinPointed",
+      "mouth": "thin",
+      "ears": "closeFit",
+      "chin": "squareFirm",
+      "complexion": "pale"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "weak"
+      },
+      {
+        "palace": "wealth",
+        "status": "blocked"
+      },
+      {
+        "palace": "career",
+        "status": "strong"
+      },
+      {
+        "palace": "relationship",
+        "status": "stable"
+      },
+      {
+        "palace": "health",
+        "status": "weak"
+      },
+      {
+        "palace": "travel",
+        "status": "blocked"
+      },
+      {
+        "palace": "support",
+        "status": "strong"
+      }
+    ],
+    "confidence": 0.7
+  },
+  {
+    "face_id": "fixture-028",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.83,
+      "clarity_score": 0.58,
+      "lighting": "backlit",
+      "occlusion": "high"
+    },
+    "features": {
+      "forehead": "narrow",
+      "eyebrows": "thickDense",
+      "eyes": "threeWhite",
+      "nose": "hooked",
+      "mouth": "blurryEdges",
+      "ears": "highSet",
+      "chin": "pointed",
+      "complexion": "dark"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "blocked"
+      },
+      {
+        "palace": "wealth",
+        "status": "strong"
+      },
+      {
+        "palace": "career",
+        "status": "stable"
+      },
+      {
+        "palace": "relationship",
+        "status": "weak"
+      },
+      {
+        "palace": "health",
+        "status": "blocked"
+      },
+      {
+        "palace": "travel",
+        "status": "strong"
+      },
+      {
+        "palace": "support",
+        "status": "stable"
+      }
+    ],
+    "confidence": 0.74
+  },
+  {
+    "face_id": "fixture-029",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.87,
+      "clarity_score": 0.62,
+      "lighting": "bright",
+      "occlusion": "none"
+    },
+    "features": {
+      "forehead": "high",
+      "eyebrows": "sparse",
+      "eyes": "fishLike",
+      "nose": "flatWeak",
+      "mouth": "balanced",
+      "ears": "lowSet",
+      "chin": "receding",
+      "complexion": "mixed"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "strong"
+      },
+      {
+        "palace": "wealth",
+        "status": "stable"
+      },
+      {
+        "palace": "career",
+        "status": "weak"
+      },
+      {
+        "palace": "relationship",
+        "status": "blocked"
+      },
+      {
+        "palace": "health",
+        "status": "strong"
+      },
+      {
+        "palace": "travel",
+        "status": "stable"
+      },
+      {
+        "palace": "support",
+        "status": "weak"
+      }
+    ],
+    "confidence": 0.78
+  },
+  {
+    "face_id": "fixture-030",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.91,
+      "clarity_score": 0.66,
+      "lighting": "balanced",
+      "occlusion": "low"
+    },
+    "features": {
+      "forehead": "low",
+      "eyebrows": "shortBroken",
+      "eyes": "deepSet",
+      "nose": "fullRound",
+      "mouth": "upturned",
+      "ears": "thickLobe",
+      "chin": "long",
+      "complexion": "bright"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "stable"
+      },
+      {
+        "palace": "wealth",
+        "status": "weak"
+      },
+      {
+        "palace": "career",
+        "status": "blocked"
+      },
+      {
+        "palace": "relationship",
+        "status": "strong"
+      },
+      {
+        "palace": "health",
+        "status": "stable"
+      },
+      {
+        "palace": "travel",
+        "status": "weak"
+      },
+      {
+        "palace": "support",
+        "status": "blocked"
+      }
+    ],
+    "confidence": 0.82
+  },
+  {
+    "face_id": "fixture-031",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.55,
+      "clarity_score": 0.7,
+      "lighting": "dim",
+      "occlusion": "medium"
+    },
+    "features": {
+      "forehead": "broad",
+      "eyebrows": "longRising",
+      "eyes": "clearBright",
+      "nose": "straightBridge",
+      "mouth": "downturned",
+      "ears": "smallThin",
+      "chin": "roundFull",
+      "complexion": "yellowish"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "weak"
+      },
+      {
+        "palace": "wealth",
+        "status": "blocked"
+      },
+      {
+        "palace": "career",
+        "status": "strong"
+      },
+      {
+        "palace": "relationship",
+        "status": "stable"
+      },
+      {
+        "palace": "health",
+        "status": "weak"
+      },
+      {
+        "palace": "travel",
+        "status": "blocked"
+      },
+      {
+        "palace": "support",
+        "status": "strong"
+      }
+    ],
+    "confidence": 0.86
+  },
+  {
+    "face_id": "fixture-032",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.59,
+      "clarity_score": 0.74,
+      "lighting": "backlit",
+      "occlusion": "high"
+    },
+    "features": {
+      "forehead": "balanced",
+      "eyebrows": "crescent",
+      "eyes": "peachBlossom",
+      "nose": "broadWing",
+      "mouth": "thick",
+      "ears": "protruding",
+      "chin": "squareFirm",
+      "complexion": "pale"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "blocked"
+      },
+      {
+        "palace": "wealth",
+        "status": "strong"
+      },
+      {
+        "palace": "career",
+        "status": "stable"
+      },
+      {
+        "palace": "relationship",
+        "status": "weak"
+      },
+      {
+        "palace": "health",
+        "status": "blocked"
+      },
+      {
+        "palace": "travel",
+        "status": "strong"
+      },
+      {
+        "palace": "support",
+        "status": "stable"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "face_id": "fixture-033",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.63,
+      "clarity_score": 0.78,
+      "lighting": "bright",
+      "occlusion": "none"
+    },
+    "features": {
+      "forehead": "narrow",
+      "eyebrows": "straight",
+      "eyes": "triangle",
+      "nose": "thinPointed",
+      "mouth": "thin",
+      "ears": "closeFit",
+      "chin": "pointed",
+      "complexion": "dark"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "strong"
+      },
+      {
+        "palace": "wealth",
+        "status": "stable"
+      },
+      {
+        "palace": "career",
+        "status": "weak"
+      },
+      {
+        "palace": "relationship",
+        "status": "blocked"
+      },
+      {
+        "palace": "health",
+        "status": "strong"
+      },
+      {
+        "palace": "travel",
+        "status": "stable"
+      },
+      {
+        "palace": "support",
+        "status": "weak"
+      }
+    ],
+    "confidence": 0.62
+  },
+  {
+    "face_id": "fixture-034",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.67,
+      "clarity_score": 0.82,
+      "lighting": "balanced",
+      "occlusion": "low"
+    },
+    "features": {
+      "forehead": "high",
+      "eyebrows": "thickDense",
+      "eyes": "threeWhite",
+      "nose": "hooked",
+      "mouth": "blurryEdges",
+      "ears": "highSet",
+      "chin": "receding",
+      "complexion": "mixed"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "stable"
+      },
+      {
+        "palace": "wealth",
+        "status": "weak"
+      },
+      {
+        "palace": "career",
+        "status": "blocked"
+      },
+      {
+        "palace": "relationship",
+        "status": "strong"
+      },
+      {
+        "palace": "health",
+        "status": "stable"
+      },
+      {
+        "palace": "travel",
+        "status": "weak"
+      },
+      {
+        "palace": "support",
+        "status": "blocked"
+      }
+    ],
+    "confidence": 0.66
+  },
+  {
+    "face_id": "fixture-035",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.71,
+      "clarity_score": 0.86,
+      "lighting": "dim",
+      "occlusion": "medium"
+    },
+    "features": {
+      "forehead": "low",
+      "eyebrows": "sparse",
+      "eyes": "fishLike",
+      "nose": "flatWeak",
+      "mouth": "balanced",
+      "ears": "lowSet",
+      "chin": "long",
+      "complexion": "bright"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "weak"
+      },
+      {
+        "palace": "wealth",
+        "status": "blocked"
+      },
+      {
+        "palace": "career",
+        "status": "strong"
+      },
+      {
+        "palace": "relationship",
+        "status": "stable"
+      },
+      {
+        "palace": "health",
+        "status": "weak"
+      },
+      {
+        "palace": "travel",
+        "status": "blocked"
+      },
+      {
+        "palace": "support",
+        "status": "strong"
+      }
+    ],
+    "confidence": 0.7
+  },
+  {
+    "face_id": "fixture-036",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.75,
+      "clarity_score": 0.9,
+      "lighting": "backlit",
+      "occlusion": "high"
+    },
+    "features": {
+      "forehead": "broad",
+      "eyebrows": "shortBroken",
+      "eyes": "deepSet",
+      "nose": "fullRound",
+      "mouth": "upturned",
+      "ears": "thickLobe",
+      "chin": "roundFull",
+      "complexion": "yellowish"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "blocked"
+      },
+      {
+        "palace": "wealth",
+        "status": "strong"
+      },
+      {
+        "palace": "career",
+        "status": "stable"
+      },
+      {
+        "palace": "relationship",
+        "status": "weak"
+      },
+      {
+        "palace": "health",
+        "status": "blocked"
+      },
+      {
+        "palace": "travel",
+        "status": "strong"
+      },
+      {
+        "palace": "support",
+        "status": "stable"
+      }
+    ],
+    "confidence": 0.74
+  },
+  {
+    "face_id": "fixture-037",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.79,
+      "clarity_score": 0.58,
+      "lighting": "bright",
+      "occlusion": "none"
+    },
+    "features": {
+      "forehead": "balanced",
+      "eyebrows": "longRising",
+      "eyes": "clearBright",
+      "nose": "straightBridge",
+      "mouth": "downturned",
+      "ears": "smallThin",
+      "chin": "squareFirm",
+      "complexion": "pale"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "strong"
+      },
+      {
+        "palace": "wealth",
+        "status": "stable"
+      },
+      {
+        "palace": "career",
+        "status": "weak"
+      },
+      {
+        "palace": "relationship",
+        "status": "blocked"
+      },
+      {
+        "palace": "health",
+        "status": "strong"
+      },
+      {
+        "palace": "travel",
+        "status": "stable"
+      },
+      {
+        "palace": "support",
+        "status": "weak"
+      }
+    ],
+    "confidence": 0.78
+  },
+  {
+    "face_id": "fixture-038",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.83,
+      "clarity_score": 0.62,
+      "lighting": "balanced",
+      "occlusion": "low"
+    },
+    "features": {
+      "forehead": "narrow",
+      "eyebrows": "crescent",
+      "eyes": "peachBlossom",
+      "nose": "broadWing",
+      "mouth": "thick",
+      "ears": "protruding",
+      "chin": "pointed",
+      "complexion": "dark"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "stable"
+      },
+      {
+        "palace": "wealth",
+        "status": "weak"
+      },
+      {
+        "palace": "career",
+        "status": "blocked"
+      },
+      {
+        "palace": "relationship",
+        "status": "strong"
+      },
+      {
+        "palace": "health",
+        "status": "stable"
+      },
+      {
+        "palace": "travel",
+        "status": "weak"
+      },
+      {
+        "palace": "support",
+        "status": "blocked"
+      }
+    ],
+    "confidence": 0.82
+  },
+  {
+    "face_id": "fixture-039",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.87,
+      "clarity_score": 0.66,
+      "lighting": "dim",
+      "occlusion": "medium"
+    },
+    "features": {
+      "forehead": "high",
+      "eyebrows": "straight",
+      "eyes": "triangle",
+      "nose": "thinPointed",
+      "mouth": "thin",
+      "ears": "closeFit",
+      "chin": "receding",
+      "complexion": "mixed"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "weak"
+      },
+      {
+        "palace": "wealth",
+        "status": "blocked"
+      },
+      {
+        "palace": "career",
+        "status": "strong"
+      },
+      {
+        "palace": "relationship",
+        "status": "stable"
+      },
+      {
+        "palace": "health",
+        "status": "weak"
+      },
+      {
+        "palace": "travel",
+        "status": "blocked"
+      },
+      {
+        "palace": "support",
+        "status": "strong"
+      }
+    ],
+    "confidence": 0.86
+  },
+  {
+    "face_id": "fixture-040",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.91,
+      "clarity_score": 0.7,
+      "lighting": "backlit",
+      "occlusion": "high"
+    },
+    "features": {
+      "forehead": "low",
+      "eyebrows": "thickDense",
+      "eyes": "threeWhite",
+      "nose": "hooked",
+      "mouth": "blurryEdges",
+      "ears": "highSet",
+      "chin": "long",
+      "complexion": "bright"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "blocked"
+      },
+      {
+        "palace": "wealth",
+        "status": "strong"
+      },
+      {
+        "palace": "career",
+        "status": "stable"
+      },
+      {
+        "palace": "relationship",
+        "status": "weak"
+      },
+      {
+        "palace": "health",
+        "status": "blocked"
+      },
+      {
+        "palace": "travel",
+        "status": "strong"
+      },
+      {
+        "palace": "support",
+        "status": "stable"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "face_id": "fixture-041",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.55,
+      "clarity_score": 0.74,
+      "lighting": "bright",
+      "occlusion": "none"
+    },
+    "features": {
+      "forehead": "broad",
+      "eyebrows": "sparse",
+      "eyes": "fishLike",
+      "nose": "flatWeak",
+      "mouth": "balanced",
+      "ears": "lowSet",
+      "chin": "roundFull",
+      "complexion": "yellowish"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "strong"
+      },
+      {
+        "palace": "wealth",
+        "status": "stable"
+      },
+      {
+        "palace": "career",
+        "status": "weak"
+      },
+      {
+        "palace": "relationship",
+        "status": "blocked"
+      },
+      {
+        "palace": "health",
+        "status": "strong"
+      },
+      {
+        "palace": "travel",
+        "status": "stable"
+      },
+      {
+        "palace": "support",
+        "status": "weak"
+      }
+    ],
+    "confidence": 0.62
+  },
+  {
+    "face_id": "fixture-042",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.59,
+      "clarity_score": 0.78,
+      "lighting": "balanced",
+      "occlusion": "low"
+    },
+    "features": {
+      "forehead": "balanced",
+      "eyebrows": "shortBroken",
+      "eyes": "deepSet",
+      "nose": "fullRound",
+      "mouth": "upturned",
+      "ears": "thickLobe",
+      "chin": "squareFirm",
+      "complexion": "pale"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "stable"
+      },
+      {
+        "palace": "wealth",
+        "status": "weak"
+      },
+      {
+        "palace": "career",
+        "status": "blocked"
+      },
+      {
+        "palace": "relationship",
+        "status": "strong"
+      },
+      {
+        "palace": "health",
+        "status": "stable"
+      },
+      {
+        "palace": "travel",
+        "status": "weak"
+      },
+      {
+        "palace": "support",
+        "status": "blocked"
+      }
+    ],
+    "confidence": 0.66
+  },
+  {
+    "face_id": "fixture-043",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.63,
+      "clarity_score": 0.82,
+      "lighting": "dim",
+      "occlusion": "medium"
+    },
+    "features": {
+      "forehead": "narrow",
+      "eyebrows": "longRising",
+      "eyes": "clearBright",
+      "nose": "straightBridge",
+      "mouth": "downturned",
+      "ears": "smallThin",
+      "chin": "pointed",
+      "complexion": "dark"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "weak"
+      },
+      {
+        "palace": "wealth",
+        "status": "blocked"
+      },
+      {
+        "palace": "career",
+        "status": "strong"
+      },
+      {
+        "palace": "relationship",
+        "status": "stable"
+      },
+      {
+        "palace": "health",
+        "status": "weak"
+      },
+      {
+        "palace": "travel",
+        "status": "blocked"
+      },
+      {
+        "palace": "support",
+        "status": "strong"
+      }
+    ],
+    "confidence": 0.7
+  },
+  {
+    "face_id": "fixture-044",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.67,
+      "clarity_score": 0.86,
+      "lighting": "backlit",
+      "occlusion": "high"
+    },
+    "features": {
+      "forehead": "high",
+      "eyebrows": "crescent",
+      "eyes": "peachBlossom",
+      "nose": "broadWing",
+      "mouth": "thick",
+      "ears": "protruding",
+      "chin": "receding",
+      "complexion": "mixed"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "blocked"
+      },
+      {
+        "palace": "wealth",
+        "status": "strong"
+      },
+      {
+        "palace": "career",
+        "status": "stable"
+      },
+      {
+        "palace": "relationship",
+        "status": "weak"
+      },
+      {
+        "palace": "health",
+        "status": "blocked"
+      },
+      {
+        "palace": "travel",
+        "status": "strong"
+      },
+      {
+        "palace": "support",
+        "status": "stable"
+      }
+    ],
+    "confidence": 0.74
+  },
+  {
+    "face_id": "fixture-045",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.71,
+      "clarity_score": 0.9,
+      "lighting": "bright",
+      "occlusion": "none"
+    },
+    "features": {
+      "forehead": "low",
+      "eyebrows": "straight",
+      "eyes": "triangle",
+      "nose": "thinPointed",
+      "mouth": "thin",
+      "ears": "closeFit",
+      "chin": "long",
+      "complexion": "bright"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "strong"
+      },
+      {
+        "palace": "wealth",
+        "status": "stable"
+      },
+      {
+        "palace": "career",
+        "status": "weak"
+      },
+      {
+        "palace": "relationship",
+        "status": "blocked"
+      },
+      {
+        "palace": "health",
+        "status": "strong"
+      },
+      {
+        "palace": "travel",
+        "status": "stable"
+      },
+      {
+        "palace": "support",
+        "status": "weak"
+      }
+    ],
+    "confidence": 0.78
+  },
+  {
+    "face_id": "fixture-046",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.75,
+      "clarity_score": 0.58,
+      "lighting": "balanced",
+      "occlusion": "low"
+    },
+    "features": {
+      "forehead": "broad",
+      "eyebrows": "thickDense",
+      "eyes": "threeWhite",
+      "nose": "hooked",
+      "mouth": "blurryEdges",
+      "ears": "highSet",
+      "chin": "roundFull",
+      "complexion": "yellowish"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "stable"
+      },
+      {
+        "palace": "wealth",
+        "status": "weak"
+      },
+      {
+        "palace": "career",
+        "status": "blocked"
+      },
+      {
+        "palace": "relationship",
+        "status": "strong"
+      },
+      {
+        "palace": "health",
+        "status": "stable"
+      },
+      {
+        "palace": "travel",
+        "status": "weak"
+      },
+      {
+        "palace": "support",
+        "status": "blocked"
+      }
+    ],
+    "confidence": 0.82
+  },
+  {
+    "face_id": "fixture-047",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.79,
+      "clarity_score": 0.62,
+      "lighting": "dim",
+      "occlusion": "medium"
+    },
+    "features": {
+      "forehead": "balanced",
+      "eyebrows": "sparse",
+      "eyes": "fishLike",
+      "nose": "flatWeak",
+      "mouth": "balanced",
+      "ears": "lowSet",
+      "chin": "squareFirm",
+      "complexion": "pale"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "weak"
+      },
+      {
+        "palace": "wealth",
+        "status": "blocked"
+      },
+      {
+        "palace": "career",
+        "status": "strong"
+      },
+      {
+        "palace": "relationship",
+        "status": "stable"
+      },
+      {
+        "palace": "health",
+        "status": "weak"
+      },
+      {
+        "palace": "travel",
+        "status": "blocked"
+      },
+      {
+        "palace": "support",
+        "status": "strong"
+      }
+    ],
+    "confidence": 0.86
+  },
+  {
+    "face_id": "fixture-048",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.83,
+      "clarity_score": 0.66,
+      "lighting": "backlit",
+      "occlusion": "high"
+    },
+    "features": {
+      "forehead": "narrow",
+      "eyebrows": "shortBroken",
+      "eyes": "deepSet",
+      "nose": "fullRound",
+      "mouth": "upturned",
+      "ears": "thickLobe",
+      "chin": "pointed",
+      "complexion": "dark"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "blocked"
+      },
+      {
+        "palace": "wealth",
+        "status": "strong"
+      },
+      {
+        "palace": "career",
+        "status": "stable"
+      },
+      {
+        "palace": "relationship",
+        "status": "weak"
+      },
+      {
+        "palace": "health",
+        "status": "blocked"
+      },
+      {
+        "palace": "travel",
+        "status": "strong"
+      },
+      {
+        "palace": "support",
+        "status": "stable"
+      }
+    ],
+    "confidence": 0.9
+  },
+  {
+    "face_id": "fixture-049",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.87,
+      "clarity_score": 0.7,
+      "lighting": "bright",
+      "occlusion": "none"
+    },
+    "features": {
+      "forehead": "high",
+      "eyebrows": "longRising",
+      "eyes": "clearBright",
+      "nose": "straightBridge",
+      "mouth": "downturned",
+      "ears": "smallThin",
+      "chin": "receding",
+      "complexion": "mixed"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "strong"
+      },
+      {
+        "palace": "wealth",
+        "status": "stable"
+      },
+      {
+        "palace": "career",
+        "status": "weak"
+      },
+      {
+        "palace": "relationship",
+        "status": "blocked"
+      },
+      {
+        "palace": "health",
+        "status": "strong"
+      },
+      {
+        "palace": "travel",
+        "status": "stable"
+      },
+      {
+        "palace": "support",
+        "status": "weak"
+      }
+    ],
+    "confidence": 0.62
+  },
+  {
+    "face_id": "fixture-050",
+    "quality": {
+      "single_face": true,
+      "frontal_score": 0.91,
+      "clarity_score": 0.74,
+      "lighting": "balanced",
+      "occlusion": "low"
+    },
+    "features": {
+      "forehead": "low",
+      "eyebrows": "crescent",
+      "eyes": "peachBlossom",
+      "nose": "broadWing",
+      "mouth": "thick",
+      "ears": "protruding",
+      "chin": "long",
+      "complexion": "bright"
+    },
+    "palace_signals": [
+      {
+        "palace": "life",
+        "status": "stable"
+      },
+      {
+        "palace": "wealth",
+        "status": "weak"
+      },
+      {
+        "palace": "career",
+        "status": "blocked"
+      },
+      {
+        "palace": "relationship",
+        "status": "strong"
+      },
+      {
+        "palace": "health",
+        "status": "stable"
+      },
+      {
+        "palace": "travel",
+        "status": "weak"
+      },
+      {
+        "palace": "support",
+        "status": "blocked"
+      }
+    ],
+    "confidence": 0.66
+  }
+]
