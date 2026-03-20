@@ -14,6 +14,9 @@
 - [marketanalysis.md](/Users/lulu/Codex/FatellProject/docs/marketanalysis.md)
 - [astrobot.md](/Users/lulu/Codex/FatellProject/docs/astrobot.md)
 - [companion-differentiation.md](/Users/lulu/Codex/FatellProject/docs/companion-differentiation.md)
+- [facexiang-page-interaction-design.md](/Users/lulu/Codex/FatellProject/docs/facexiang-page-interaction-design.md)
+- [facexiang-ios-implementation-tasks.md](/Users/lulu/Codex/FatellProject/docs/facexiang-ios-implementation-tasks.md)
+- [facexiang-ios-detailed-prd.md](/Users/lulu/Codex/FatellProject/docs/facexiang-ios-detailed-prd.md)
 
 ## 2. 一句话定义
 
@@ -39,10 +42,10 @@
 
 ### 3.2 v1 目标
 
-验证三件事：
+验证三件事，但优先级明确如下：
 
-1. 用户是否愿意通过“自拍 + 一点当下处境”来启动这段关系
-2. 用户是否会因为“它抓到了我真正的 tension”而认可产品价值
+1. `最高优先级`：用户是否会因为首个 `Read Me` 明显感到“它抓到了我真正的 tension”
+2. 用户是否愿意在 first aha 之后继续补充一点现实处境
 3. 用户是否会围绕同一主题在 7 天内持续回来
 
 ### 3.3 v1 不验证的事情
@@ -54,6 +57,19 @@
 - 复杂社交网络
 - 恋爱型 AI 伴侣关系
 - 完整订阅体系最优解
+
+### 3.4 渠道策略
+
+当前已明确：
+
+- `iOS first`
+- `微信后置`
+
+原因：
+
+- 当前首版重点是验证强 `first aha`，需要更完整的 App 体验、推送能力、图片链路和后续线程承接
+- iOS 更适合承载“拍照 -> 识别 -> 结果 -> 回访 -> 线程 -> recap”的连续体验
+- 微信小程序后续作为渠道扩展与中文私域承接，而不是首版验证载体
 
 ## 4. 用户与需求
 
@@ -132,6 +148,14 @@ daily guidance 不是内容供给，而是连续关系的触点。
 
 产品必须做深层 tension，但不能做操控型依赖设计。
 
+### 6.6 先 first aha，后留存系统
+
+如果首个 `Read Me` 不能稳定打中用户，后续 Today、Ask、Recap 都只会放大空泛感。  
+因此首版推进顺序必须是：
+
+- 先把 first aha 打磨到稳定
+- 再补线程和留存机制
+
 ## 7. v1 产品范围
 
 ## 7.1 首版必须有的模块
@@ -142,15 +166,23 @@ daily guidance 不是内容供给，而是连续关系的触点。
 
 - 用户自拍/选图
 - 建立第一识别锚点
-- 输出第一版人格/关系姿态/tension 判断
+- 输出第一版相学分析、人格结构与当前 tension 判断
 
 核心输出：
 
-- 外在第一印象
-- 当前状态判断
+- 整体格局
+- 五官功能倾向
+- 三停能量分布
+- 当前被激活的重点宫位
 - 防御方式
 - 关系气场 / 吸引力倾向
 - 当前主要 tension
+
+说明：
+
+- `Read Me` 不是“识别到哪些面部特征”
+- 而是“把五官、三停、十二宫与部位细相组合成一段有推理感的解释”
+- 用户应明显感到产品在分析“为什么你会这样”，而不是在列举“你长什么样”
 
 ### 模块 B：Context Onboarding
 
@@ -224,7 +256,7 @@ daily guidance 不是内容供给，而是连续关系的触点。
 1. 用户进入首页
 2. 看到价值主张与免责声明
 3. 自拍/上传正脸
-4. 系统完成结构化识别
+4. 系统完成结构化观察、相学落点与推理
 5. 输出第一版 `Read Me`
 6. 进入 `Context Onboarding`
 7. 生成首个 `Today With Me`
@@ -269,11 +301,17 @@ daily guidance 不是内容供给，而是连续关系的触点。
 
 内容结构：
 
-- 你给人的第一印象
+- 你给人的第一印象与整体格局
 - 你当前更容易出现的防御模式
-- 你在关系/事业上的当前 tension
+- 你在关系/事业/安全感上的当前主线
 - 为什么这么判断
 - 下一步引导问题
+
+补充要求：
+
+- 页面内容不能只由单个部位解释组成
+- 必须体现“整体 -> 系统 -> 主线 -> tension”的分析递进
+- “为什么这么判断”中应能让用户感到五官、三停、十二宫不是背景知识，而是结论来源
 
 ### 9.3 Context Onboarding 页面
 
@@ -354,6 +392,15 @@ daily guidance 不是内容供给，而是连续关系的触点。
 - `UserProfile`
 - `FaceProfile`
 - `FaceReadingSnapshot`
+- `ObservedFeature`
+- `OfficialAssessment`
+- `ZoneAssessment`
+- `PalaceAssessment`
+- `KnowledgeTopicHit`
+- `RuleHit`
+- `InterpretationArc`
+- `TensionHypothesis`
+- `ExplanationTrace`
 - `MemoryItem`
 - `TensionProfile`
 - `GuidanceThread`
@@ -395,27 +442,49 @@ daily guidance 不是内容供给，而是连续关系的触点。
 
 ## 10.4 AI 架构
 
-建议拆成 5 条生成链路：
+建议拆成 9 条生成链路：
 
-1. `Face Extraction`
+1. `Face Quality Gate`
    - 输入：自拍
-   - 输出：结构化面相特征
+   - 输出：是否单人、是否正脸、是否清晰、是否遮挡、关键区域是否可继续
 
-2. `Read Me Generation`
-   - 输入：面相特征 + 基础知识库
+2. `Structured Observation Extraction`
+   - 输入：通过质量门的图片
+   - 输出：脸型、额、眉、眼、鼻、口、耳、下庭、气色、纹痣疤等结构化观察结果
+
+3. `Xiangxue System Grounding`
+   - 输入：`ObservedFeature[]` + `/知识库`
+   - 输出：`OfficialAssessment[]`、`ZoneAssessment[]`、`PalaceAssessment[]`、`KnowledgeTopicHit[]`
+
+4. `Rule Synthesis`
+   - 输入：观察结果 + 相学系统落点
+   - 输出：`RuleHit[]`
+
+5. `Interpretation Arc`
+   - 输入：`RuleHit[]`
+   - 输出：整体格局、内在结构、关系姿态、事业压力、防御方式等解释弧线
+
+6. `Tension Hypothesis`
+   - 输入：`InterpretationArc[]` + 用户最小上下文
+   - 输出：`TensionHypothesis[]`
+
+7. `Read Me Generation`
+   - 输入：解释弧线 + tension 假设 + 风格约束
    - 输出：首版读图解释
 
-3. `Context Profiling`
+8. `Context Profiling`
    - 输入：onboarding 问题答案
    - 输出：事实记忆 + tension 记忆
 
-4. `Daily Guidance`
-   - 输入：线程状态 + 记忆 + 前次反馈
-   - 输出：当日 guidance
+9. `Daily / Thread Generation`
+   - 输入：线程状态 + 记忆 + 前次反馈 + 面相画像
+   - 输出：当日 guidance 或线程延续回答
 
-5. `Thread Response`
-   - 输入：当前问题 + 线程 + 记忆 + 面相画像
-   - 输出：延续回答
+设计要求：
+
+- 第 3-6 步是首版的核心，不允许被压缩成“一次模型调用”
+- `Read Me` 的竞争力来自“相学分析与推理链”，不是“视觉识别能力”
+- `/知识库` 中的五官、三停、十二宫、部位细相和主题索引必须进入服务端推理层
 
 ## 10.5 技术架构
 
@@ -450,6 +519,35 @@ daily guidance 不是内容供给，而是连续关系的触点。
 - Redis / Queue
 - 监控和日志
 
+## 10.6 身份与持久化策略
+
+为兼顾 `iOS first` 与 `first aha` 低摩擦，v1 建议采用：
+
+### 身份策略
+
+- 默认 `anonymous cloud account`
+- 首次启动即由服务端签发匿名 `user_id`
+- 设备端将匿名身份写入 `Keychain`
+- 后续可升级绑定 `Sign in with Apple`
+
+说明：
+
+- 不要求 first session 先登录
+- 但线程、记忆、history 不做纯本地孤岛
+
+### 数据归属
+
+- 服务端为主存
+- 本地为缓存
+- 卸载重装后，只要匿名身份仍在 Keychain，可恢复连续关系
+
+### 用户可控能力
+
+- 查看当前主画像
+- 编辑关键人物和当前主线
+- 标记“这条不对”
+- 删除图片、记忆和账号
+
 ## 11. 非功能要求
 
 ### 11.1 隐私
@@ -468,6 +566,7 @@ daily guidance 不是内容供给，而是连续关系的触点。
 
 - 关键输出要有“为什么这么判断”
 - 对 deep guidance 输出保留 traceable explanation
+- `Read Me` 必须能回溯到观察结果、相学系统落点和知识来源
 
 ### 11.4 稳定性
 
@@ -478,6 +577,10 @@ daily guidance 不是内容供给，而是连续关系的触点。
 
 首版只盯以下指标：
 
+- first aha 主观评分
+- “是否像在说我”主观评分
+- “是否讲清了我为什么会这样”主观评分
+- Read Me 展开/读完率
 - 首次自拍完成率
 - Read Me 完成率
 - Context Onboarding 完成率
@@ -491,6 +594,16 @@ daily guidance 不是内容供给，而是连续关系的触点。
 
 建议分 5 个阶段推进。
 
+### 阶段门槛原则
+
+在进入 `Phase 3: Today With Me` 前，必须满足：
+
+- first aha 主观评分达到预设阈值
+- Read Me 中“为什么这么判断”理解度达标
+- 样本用户普遍认为结果不是 generic 内容
+
+如果上述门槛不达标，不应继续把资源投入留存功能扩写。
+
 ## Phase 0：定义与验证准备（1-2 周）
 
 目标：
@@ -500,6 +613,7 @@ daily guidance 不是内容供给，而是连续关系的触点。
 输出：
 
 - 本 PRD 定稿
+- 页面与交互设计文档
 - 结果语气规范
 - tension taxonomy
 - 首版线程 taxonomy
@@ -516,21 +630,27 @@ daily guidance 不是内容供给，而是连续关系的触点。
 
 目标：
 
-- 跑通自拍 -> 结构化识别 -> 首版读图结果
+- 跑通自拍 -> 结构化观察 -> 相学推理 -> 首版读图结果
 
 开发内容：
 
 - 图片上传/拍照
 - 图像质量检查
-- 结构化识别链路
-- 面相基础分析引擎
+- 结构化观察链路
+- `/知识库` 最小可用子集接入
+- `ObservedFeature / OfficialAssessment / ZoneAssessment / PalaceAssessment / RuleHit / InterpretationArc / ExplanationTrace` 数据结构
+- 面相基础分析与推理引擎
 - Read Me 页面
+- 分析中与失败回退状态
 - 错误处理
 
 验收标准：
 
 - 用户能从自拍拿到完整首版结果
 - 输出结构稳定
+- 结果能体现相学分析过程，而不是部位标签堆叠
+- 用户能看懂“为什么这么判断”
+- 用户能明显感到产品在解释“为什么我会这样”
 - 错误能被明确提示
 
 ## Phase 2：记忆与线程 MVP（2-3 周）
@@ -545,6 +665,7 @@ daily guidance 不是内容供给，而是连续关系的触点。
 - 事实记忆层
 - tension 记忆层
 - 线程数据模型
+- 记忆查看/纠错最小闭环
 - Ask About This 页面
 - 线程归类逻辑
 
@@ -665,6 +786,7 @@ daily guidance 不是内容供给，而是连续关系的触点。
 范围：
 
 - 首次 aha moment
+- first aha 的“像在说我”强度
 - 次日回访意愿
 - 线程连续使用意愿
 
@@ -677,6 +799,7 @@ daily guidance 不是内容供给，而是连续关系的触点。
 
 - 哪句话最让你觉得“被说中”
 - 哪句话最让你觉得空泛
+- 你看得懂它为什么这么判断吗
 - 你愿不愿意明天再回来
 - 你觉得它记住你了吗
 
@@ -805,5 +928,13 @@ daily guidance 不是内容供给，而是连续关系的触点。
 2. `v1-copy-and-prompt-spec.md`
    - 定义首版文案语气、prompt 结构、危险表达边界
 
-这样产品、设计、工程、AI 才能并行推进。
+3. `analysis-trace-spec.md`
+   - 定义质量门、观察特征、规则命中、解释 trace、页面输出结构
 
+4. `identity-memory-spec.md`
+   - 定义匿名身份、记忆纠错、删除与恢复逻辑
+
+5. `async-flow-and-fallback-spec.md`
+   - 定义上传、分析中、超时、降级、失败回退体验
+
+这样产品、设计、工程、AI 才能并行推进。
