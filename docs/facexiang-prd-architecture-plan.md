@@ -17,6 +17,7 @@
 - [facexiang-page-interaction-design.md](/Users/lulu/Codex/FatellProject/docs/facexiang-page-interaction-design.md)
 - [facexiang-ios-implementation-tasks.md](/Users/lulu/Codex/FatellProject/docs/facexiang-ios-implementation-tasks.md)
 - [facexiang-ios-detailed-prd.md](/Users/lulu/Codex/FatellProject/docs/facexiang-ios-detailed-prd.md)
+- [facexiang-ui-design-brief.md](/Users/lulu/Codex/FatellProject/docs/facexiang-ui-design-brief.md)
 
 ## 2. 一句话定义
 

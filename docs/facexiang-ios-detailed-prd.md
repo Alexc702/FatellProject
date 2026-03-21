@@ -16,6 +16,14 @@
 - 作为下一步 UI 设计稿的直接输入
 - 约束首版不会退化成“面部识别报告工具”
 
+对应的 UI 设计稿说明见：
+
+- [facexiang-ui-design-brief.md](/Users/lulu/Codex/FatellProject/docs/facexiang-ui-design-brief.md)
+
+如需直接生成 AI 设计稿，可使用：
+
+- [facexiang-pencil-design-input.md](/Users/lulu/Codex/FatellProject/docs/facexiang-pencil-design-input.md)
+
 ## 2. 产品定义
 
 ## 2.1 一句话定义

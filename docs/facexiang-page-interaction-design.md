@@ -25,6 +25,10 @@
 
 - [facexiang-ios-detailed-prd.md](/Users/lulu/Codex/FatellProject/docs/facexiang-ios-detailed-prd.md)
 
+对应的 UI 设计稿说明见：
+
+- [facexiang-ui-design-brief.md](/Users/lulu/Codex/FatellProject/docs/facexiang-ui-design-brief.md)
+
 ## 2. 设计原则
 
 ### 2.1 先解释“为什么会这样”，再给建议

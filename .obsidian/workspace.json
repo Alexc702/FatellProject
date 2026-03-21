@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/facexiang-page-interaction-design.md",
+                "file": "prod-dev/facexiang-v1-task-list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "facexiang-page-interaction-design"
+              "title": "facexiang-v1-task-list"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 308.5
   },
   "right": {
     "id": "ae01bbf24bda5d18",
@@ -185,29 +185,36 @@
   },
   "active": "35109dacc9096505",
   "lastOpenFiles": [
+    "ios-mvp-v1/FaceXiangiOS/Assets.xcassets/AppIcon.appiconset",
+    "ios-mvp-v1/FaceXiangiOS/Assets.xcassets/AccentColor.colorset",
+    "ios-mvp-v1/FaceXiangiOS/Sources/Features",
+    "ios-mvp-v1/FaceXiangiOS/Sources/DesignSystem",
+    "ios-mvp-v1/FaceXiangiOS/Sources/App",
+    "ios-mvp-v1/FaceXiangiOS/Assets.xcassets",
+    "ios-mvp-v1/FaceXiangiOS/Sources",
+    "ios-mvp-v1/FaceXiangiOS",
+    "ios-mvp-v1/FaceXiangiOS.xcodeproj",
+    "prod-dev/facexiang-ios-component-vm-spec.md",
+    "ios-mvp/FaceXiangMVP",
+    "ios-mvp",
+    "prod-dev/facexiang-v1-dev-sequence.md",
+    "prod-dev/facexiang-v1-task-list.md",
+    "docs/identity-memory-spec.md",
+    "docs/facexiang-ui-design-brief.md",
+    "docs/facexiang-prd-architecture-plan.md",
+    "docs/facexiang-pencil-design-input.md",
+    "相学分析结构化知识_副本.md",
+    "ios-mvp/FaceXiangMVP/README.md",
+    "docs/facexiang-page-interaction-design.md",
     "docs/facexiang-ios-detailed-prd.md",
     "docs/analysis-trace-spec.md",
     "docs/facexiang-ios-implementation-tasks.md",
-    "docs/facexiang-page-interaction-design.md",
     "docs/facexiang-milestone-backlog.md",
-    "ios-mvp/FaceXiangMVP/README.md",
     "docs/astrobot.md",
     "docs/v1-copy-and-prompt-spec.md",
     "docs/product-plan.md",
     "docs/memory-thread-schema.md",
     "docs/marketanalysis.md",
-    "docs/identity-memory-spec.md",
-    "docs/facexiang-prd-architecture-plan.md",
-    "docs/companion-differentiation.md",
-    "ios-mvp/FaceXiangMVP/Sources/FaceXiangValidator/main.swift",
-    "ios-mvp/FaceXiangMVP/Sources/FaceXiangValidator/fixtures/face_profiles_50.json",
-    "ios-mvp/FaceXiangMVP/Sources/FaceXiangValidator/fixtures",
-    "ios-mvp/FaceXiangMVP/Sources/FaceXiangValidator",
-    "ios-mvp/FaceXiangMVP/Tests/FaceXiangCoreTests/fixtures/face_profiles_50.json",
-    "ios-mvp/FaceXiangMVP/Tests/FaceXiangCoreTests/fixtures",
-    "ios-mvp/FaceXiangMVP/Tests/FaceXiangCoreTests/FaceAnalysisEngineTests.swift",
-    "ios-mvp/FaceXiangMVP/Tests/FaceXiangCoreTests",
-    "ios-mvp/FaceXiangMVP/Tests",
-    "ios-mvp/FaceXiangMVP/Sources/FaceXiangApp/CameraPicker.swift"
+    "docs/companion-differentiation.md"
   ]
 }
